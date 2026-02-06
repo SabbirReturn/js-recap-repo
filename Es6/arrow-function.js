@@ -1,0 +1,15 @@
+// function expression
+
+let sum = function(num1, num2){
+    return num1 + num2;
+}
+
+let total = sum(5,9);
+// console.log(total);
+
+// multiply
+
+let multiply = (a, b) => a * b;
+
+let mult = multiply(10,20);
+console.log(mult)
