@@ -12,4 +12,16 @@ let total = sum(5,9);
 let multiply = (a, b) => a * b;
 
 let mult = multiply(10,20);
-console.log(mult)
+console.log(mult);
+
+
+// document.getElementById('button').addEventListener('click', function(){
+
+// })
+
+// document.getElementById('button').addEventListener('click', event =>{
+
+// })
+document.getElementById('button').addEventListener('click', event =>{
+    
+})
