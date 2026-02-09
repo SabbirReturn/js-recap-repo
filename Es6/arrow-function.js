@@ -15,12 +15,9 @@ let mult = multiply(10,20);
 console.log(mult);
 
 
-// document.getElementById('button').addEventListener('click', function(){
-
-// })
 
 // document.getElementById('button').addEventListener('click', event =>{
-
+    
 // })
 document.getElementById('button').addEventListener('click', event =>{
     
