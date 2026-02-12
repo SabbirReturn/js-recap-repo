@@ -26,6 +26,9 @@ console.log(mult);
 // let number = nums => nums[5];
 
 // console.log(number([1,2,3,4,15,6,7]))
+// let number = nums => nums[5];
+
+// console.log(number([1,2,3,4,15,6,7]))
 let number = nums => nums[5];
 
 console.log(number([1,2,3,4,15,6,7]))
