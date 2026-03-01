@@ -12,7 +12,15 @@ let person={
 // // console.log(parseJson, typeof parseJson);
 // console.log(parseJson, typeof parseJson);
 let jsonData = JSON.stringify(person);
-console.log(jsonData);
+// console.log(jsonData);
 
 let parseJson = JSON.parse(jsonData);
-console.log(parseJson)
+// console.log(parseJson)
+
+ 
+
+document.getElementById('button').addEventListener('click', ()=>{
+    fetch('https://jsonplaceholder.typicode.com/todos/1')
+    .then(Response=> Response.json())
+    .then(data=> console.log(data))
+})
