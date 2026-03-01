@@ -9,4 +9,5 @@ let jsonData = JSON.stringify(person);
 console.log(jsonData, typeof jsonData);
 
 let parseJson = JSON.parse(jsonData);
+// console.log(parseJson, typeof parseJson);
 console.log(parseJson, typeof parseJson);
