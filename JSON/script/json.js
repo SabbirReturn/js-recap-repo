@@ -24,3 +24,16 @@ document.getElementById('button').addEventListener('click', ()=>{
     .then(Response=> Response.json())
     .then(data=> console.log(data))
 })
+
+let addButton = ()=>{
+    let url = "https://jsonplaceholder.typicode.com/posts"
+    fetch(url)
+    .then(response => response.json())
+    .then(data=> disPlayPost(data));
+}
+
+let disPlayPost=(posts)=>{
+    posts.forEach(element => {
+        console.log(element)
+    });
+}
