@@ -32,6 +32,11 @@ let addButton = ()=>{
     .then(data=> disPlayPost(data));
 }
 
+// let disPlayPost=(posts)=>{
+//     posts.forEach(element => {
+//         console.log(element)
+//     });
+// }
 let disPlayPost=(posts)=>{
     posts.forEach(element => {
         console.log(element)
