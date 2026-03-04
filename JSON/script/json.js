@@ -38,26 +38,35 @@ let disPlayPost=(posts)=>{
     });
 }
 
-let addComment= ()=>{
-    let url = "https://jsonplaceholder.typicode.com/comments"
-    fetch(url)
-    .then(response => response.json())
-    .then(data=>disPlayComment(data));
-}
+// let addComment= ()=>{
+//     let url = "https://jsonplaceholder.typicode.com/comments"
+//     fetch(url)
+//     .then(response => response.json())
+//     .then(data=>disPlayComment(data));
+// }
 
 // let disPlayComment = (posts)=>{
 //     let liContainer = document.getElementById('liContainer')
 //     posts.forEach(post=>{
+//         // console.log(post)
 //         let li = document.createElement('li')
 //         li.innerText = post.id;
 //         liContainer.appendChild(li);
 //     })
 // }
-let disPlayComment = (posts)=>{
-    let liContainer = document.getElementById('liContainer')
-    posts.forEach(post=>{
-        let li = document.createElement('li')
-        li.innerText = post.id;
-        liContainer.appendChild(li);
+
+let addComment = ()=>{
+    let url= "https://jsonplaceholder.typicode.com/comments";
+    fetch(url)
+    .then(response=>response.json())
+    .then(data=> disPlayComment(data))
+}
+
+let disPlayComment=(posts)=>{
+    let liCollection = document.getElementById('liContainer')
+    posts.forEach((post)=>{
+        let liCreate = document.createElement('li')
+        liCreate.innerText = post.id
+        liCollection.appendChild(liCreate);
     })
 }
