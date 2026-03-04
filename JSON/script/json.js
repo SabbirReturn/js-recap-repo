@@ -32,13 +32,32 @@ let addButton = ()=>{
     .then(data=> disPlayPost(data));
 }
 
-// let disPlayPost=(posts)=>{
-//     posts.forEach(element => {
-//         console.log(element)
-//     });
-// }
 let disPlayPost=(posts)=>{
     posts.forEach(element => {
         console.log(element)
     });
+}
+
+let addComment= ()=>{
+    let url = "https://jsonplaceholder.typicode.com/comments"
+    fetch(url)
+    .then(response => response.json())
+    .then(data=>disPlayComment(data));
+}
+
+// let disPlayComment = (posts)=>{
+//     let liContainer = document.getElementById('liContainer')
+//     posts.forEach(post=>{
+//         let li = document.createElement('li')
+//         li.innerText = post.id;
+//         liContainer.appendChild(li);
+//     })
+// }
+let disPlayComment = (posts)=>{
+    let liContainer = document.getElementById('liContainer')
+    posts.forEach(post=>{
+        let li = document.createElement('li')
+        li.innerText = post.id;
+        liContainer.appendChild(li);
+    })
 }
