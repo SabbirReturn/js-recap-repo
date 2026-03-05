@@ -1,0 +1,21 @@
+#post-container{
+    max-width: 1160px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-gap: 20px; */
+    /* gap: 20px; */
+    row-gap: 30px;
+    
+}
+
+.displayPost{
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px ;
+    height: 100%;
+}
+.displayPost p{
+    text-align: justify;
+}
