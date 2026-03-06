@@ -19,3 +19,25 @@
 .displayPost p{
     text-align: justify;
 }
+
+#album-container{
+    max-width: 1160px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    column-gap: 10px;
+    
+
+}
+
+.ablums{
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    height: 100%;
+}
+.ablums h3, p{
+    text-align: justify;
+}
