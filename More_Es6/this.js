@@ -1,7 +1,12 @@
 class vehicle{
+    #tin;
     constructor(type,price){
         this.type = type;
         this.price = price;
+        this.#tin = '1234'
+    }
+    getTim(){
+        return this.#tin
     }
     getThis(){
         console.log(this)
@@ -12,8 +17,10 @@ class vehicle{
 }
 
 let car1 = new vehicle('car',5000)
+car1.getTim()
+console.log(car1)
 // console.log(car1.price)
-car1.getPrice()
+// car1.getPrice()
 // car1.getThis();
 
 let person={
@@ -22,4 +29,4 @@ let person={
         console.log(`Hello ${this.name}`)
     }
 }
-person.greet()
+// person.greet()
