@@ -13,7 +13,7 @@ let displayShow = (posts)=>{
             <h1>${element.userId}</h1>
             <p>${element.id}</p>
             <p>${element.title}</p>
-            <p>${element.completed}</p>
+            <p>${element.completed=== true ? `<i class="fa-solid fa-calendar-check"></i>`: `<i class="fa-regular fa-calendar-check"></i>`}</p>
         </div>
         `
         todoContainer.appendChild(todoCard);
