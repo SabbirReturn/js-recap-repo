@@ -14,5 +14,4 @@ let disPlayShow = (users)=>{
     });
 }
 // loadDetails();
-// loadDetails();
 loadDetails();
