@@ -13,4 +13,5 @@ let disPlayShow = (users)=>{
         detailsContainer.appendChild(div)
     });
 }
+// loadDetails();
 loadDetails();
