@@ -25,3 +25,5 @@ function fullName(name1, name2){
     return name
 }
 console.log('sabbir','Hasan')
+
+console.log('sabbir','Hasan')
