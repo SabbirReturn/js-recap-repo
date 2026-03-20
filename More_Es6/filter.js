@@ -4,3 +4,4 @@ let evenNumber = numbers.filter(num => num % 2===0);
 
 let firstEvenNumber = numbers.find(num=>num % 2===0);
 console.log(firstEvenNumber);
+console.log(firstEvenNumber);
