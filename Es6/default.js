@@ -27,3 +27,4 @@ function fullName(name1, name2){
 console.log('sabbir','Hasan')
 
 console.log('sabbir','Hasan')
+console.log('sabbir','Hasan')
