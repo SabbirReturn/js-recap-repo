@@ -3,3 +3,4 @@ function sum(num1, num2){
     return total
 }
 console.log(sum(12,13))
+console.log(sum(12,13))
