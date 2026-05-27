@@ -22,3 +22,4 @@ let address = {
 }
 console.log(address)
 console.log(address)
+console.log(address)
