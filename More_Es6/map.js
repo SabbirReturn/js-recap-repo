@@ -29,4 +29,5 @@ let products=[
 
 let pay = products.reduce((total, product)=> total + product.price,0);
 console.log(pay);
+console.log(pay);
 
