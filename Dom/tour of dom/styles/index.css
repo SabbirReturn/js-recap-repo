@@ -5,3 +5,10 @@ h1{
 li{
     color: tomato;
 }
+
+.backgroundColor{
+    background-color: rebeccapurple;
+}
+.active{
+    background-color: red;
+}
