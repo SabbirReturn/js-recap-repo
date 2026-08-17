@@ -9,6 +9,9 @@ li{
 .backgroundColor{
     background-color: rebeccapurple;
 }
+.placeTitle{
+    background-color: yellow;
+}
 .active{
     background-color: red;
 }
