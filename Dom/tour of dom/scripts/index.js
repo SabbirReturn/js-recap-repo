@@ -41,16 +41,36 @@ let nameList = document.querySelectorAll('#name li');
 // console.log(nameList)
 
 let place_Container = document.getElementById('places');
-console.log(place_Container.childNodes);
+// console.log(place_Container.parentNode.parentNode);
 
 
 // Create element
 
 let placesUl = document.querySelector('#places ul');
-console.log(placesUl)
+// console.log(placesUl)
 
 let newLi = document.createElement('li')
 newLi.innerText = 'Kushtia';
 
 placesUl.appendChild(newLi);
+
+// practice
+
+let text = document.createTextNode('hello');
+document.body.appendChild(text)
+
+
+// dom traversal
+
+let fruits_Container = document.querySelector('#fruitsContainer ul');
+console.log(fruits_Container.children)
+console.log(fruits_Container.nextElementSibling)
+console.log(fruits_Container.previousSibling)
+console.log(fruits_Container.previousElementSibling)
+let apple = document.createElement('li')
+apple.innerText = 'apple'
+fruits_Container.appendChild(apple);
+// console.log(apple.previousElementSibling.innerText)
+// console.log(apple.parentElement.tagName)
+// console.log(fruits_Container)
 
