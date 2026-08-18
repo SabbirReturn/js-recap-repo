@@ -6,7 +6,7 @@ for(let li of liCollections){
 }
 
 let fruitsTitle = document.getElementById('fruitsTitle');
-console.log(fruitsTitle)
+// console.log(fruitsTitle)
 fruitsTitle.innerText = 'Fruits Title change by javascript'
 
 let fruitsItems = document.querySelectorAll('.fruitsContainer ul li');
@@ -35,4 +35,22 @@ let container = document.getElementsByClassName('fruitsContainer')
 
 let placeContainer = document.getElementById('placeContainer');
 placeContainer.classList.toggle('active');
-console.log(placeContainer.classList)
+// console.log(placeContainer.classList)
+
+let nameList = document.querySelectorAll('#name li');
+// console.log(nameList)
+
+let place_Container = document.getElementById('places');
+console.log(place_Container.childNodes);
+
+
+// Create element
+
+let placesUl = document.querySelector('#places ul');
+console.log(placesUl)
+
+let newLi = document.createElement('li')
+newLi.innerText = 'Kushtia';
+
+placesUl.appendChild(newLi);
+
