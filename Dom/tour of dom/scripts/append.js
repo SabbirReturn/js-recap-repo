@@ -20,7 +20,21 @@ ul.appendChild(li2);
 let li3 = document.createElement('li');
 li3.innerText = 'Bandarban'
 ul.appendChild(li3)
-mainContainer.appendChild(tourSection)
+mainContainer.appendChild(tourSection);
+
+
+let dressSection = document.createElement('section');
+dressSection.innerHTML = `
+    <h1>which dress I choice</h1>
+     <ul>
+        <li>Formal</li>
+        <li>Shirt</li>
+        <li>jogers</li>
+    </ul>
+
+
+`
+mainContainer.appendChild(dressSection)
 
 
 
