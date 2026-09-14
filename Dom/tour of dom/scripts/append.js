@@ -21,6 +21,10 @@ ul.appendChild(li2);
 // li3.innerText = 'Bandarban'
 // ul.appendChild(li3)
 // mainContainer.appendChild(tourSection);
+// let li3 = document.createElement('li');
+// li3.innerText = 'Bandarban'
+// ul.appendChild(li3)
+// mainContainer.appendChild(tourSection);
 let li3 = document.createElement('li');
 li3.innerText = 'Bandarban'
 ul.appendChild(li3)
