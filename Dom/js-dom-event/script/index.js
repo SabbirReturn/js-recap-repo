@@ -25,7 +25,8 @@ input.addEventListener('keyup', function(event){
     })
 
 changeBtn.addEventListener('click', ()=>{
-    title.innerText = text
+    title.innerText = text;
+    input.value = '';
 })
 
 
