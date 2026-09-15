@@ -19,16 +19,14 @@ let title = document.getElementById('title')
 
 let changeBtn = document.getElementById('changeBtn');
 let input = document.getElementById('input')
-changeBtn.addEventListener('click', function(){
-    input.addEventListener('keyup', function(event){
-        let text = event.target.value;
-        title.innerText = text;
+let text = ''
+input.addEventListener('keyup', function(event){
+        text = event.target.value;
     })
-})
 
-// input.addEventListener('keyup', function(event){
-//         console.log(event.target.value)
-//     })
+changeBtn.addEventListener('click', ()=>{
+    title.innerText = text
+})
 
 
 
