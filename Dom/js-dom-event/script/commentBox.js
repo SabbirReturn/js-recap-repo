@@ -5,7 +5,10 @@ btn.addEventListener('click', function(){
     let text = commentBox.value;
     let commentContainer = document.getElementById('comment-container');
     let p = document.createElement('p');
-    p.innerText = text;
+    // p.innerText = text;
+    // commentContainer.appendChild(p);
+    // commentBox.value = '';
+     p.innerText = text;
     commentContainer.appendChild(p);
     commentBox.value = '';
 })
