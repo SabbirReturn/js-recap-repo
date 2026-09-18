@@ -8,6 +8,9 @@ btn.addEventListener('click', function(){
     // p.innerText = text;
     // commentContainer.appendChild(p);
     // commentBox.value = '';
+    //  p.innerText = text;
+    // commentContainer.appendChild(p);
+    // commentBox.value = '';
      p.innerText = text;
     commentContainer.appendChild(p);
     commentBox.value = '';
